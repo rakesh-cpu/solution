@@ -66,7 +66,7 @@ app.use("/api/user", async (req, res) => {
 
 app.use("/api/auth", authRoutes);
 app.use("/", (req, res) => {
-    res.send("Welcome to the backend");
+    res.send("Welcome to the backend 🎉🤞");
 });
 
 const port = process.env.PORT || 8080;
